@@ -88,7 +88,7 @@ app.post("/login", (req,res,next)=> {
     var email = post_data.email;
     var password = post_data.password;
 
-    con.query('SELECT * FROM user WHERE EMAIL=?',[email], function(err,result,fields) {
+    con.query('SELECT * FROM account WHERE EMAIL=?',[email], function(err,result,fields) {
         con.on("error", function(err) {
             console.log("con query line 55 error: ",err);
         });
@@ -104,6 +104,7 @@ app.post("/login", (req,res,next)=> {
         }
         else {
             res.json("User doesn't exist!");
+            console.log(email);
         }
     })
 

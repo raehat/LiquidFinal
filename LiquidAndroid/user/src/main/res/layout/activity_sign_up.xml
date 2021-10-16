@@ -37,7 +37,7 @@
                 android:layout_marginTop="30dp"/>
 
             <TextView
-                android:id="@+id/login"
+                android:id="@+id/button_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Login"

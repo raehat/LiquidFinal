@@ -1955,6 +1955,7 @@ id bounceEnd
 id bounceStart
 id buttonPanel
 id button_buy_now
+id button_login
 id buy_item
 id cache_measures
 id cancel_button
@@ -2102,7 +2103,6 @@ id line3
 id linear
 id listMode
 id list_item
-id login
 id low_price
 id masked
 id match_constraint
@@ -2317,8 +2317,6 @@ id text_input_error_icon
 id text_input_start_icon
 id text_settings
 id text_share_price
-id text_view_email
-id text_view_password
 id text_view_title
 id textinput_counter
 id textinput_error
@@ -3504,6 +3502,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml network_security_config
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

@@ -28,7 +28,7 @@ public class SignUp extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        textViewLogin = findViewById(R.id.login);
+        textViewLogin = findViewById(R.id.button_login);
 
         buttonSignUp = findViewById(R.id.sign_up);
 
