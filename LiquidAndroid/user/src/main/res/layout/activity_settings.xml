@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageFragments.Settings"
+    android:background="?attr/backgroundColor">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SETTINGS"
+                android:textSize="33sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:paddingTop="22dp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/stocks_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stocks_pic"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/text_settings"
+                android:layout_marginTop="42dp"/>
+
+            <TextView
+                android:id="@+id/text_general"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="General"
+                android:textColor="#878787"
+                android:layout_below="@id/stocks_gif"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="27dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/general_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/settings_card_view"
+                android:layout_below="@id/text_general"
+                tools:itemCount="1"/>
+
+            <TextView
+                android:id="@+id/stay_in_touch_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stay in touch"
+                android:textColor="#878787"
+                android:layout_below="@id/general_recycler_view"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="27dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_stay_in_touch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stay_in_touch_text_view"
+                tools:listitem="@layout/settings_card_view"
+                tools:itemCount="1"/>
+
+            <TextView
+                android:id="@+id/others_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:textColor="#878787"
+                android:layout_below="@id/recycler_view_stay_in_touch"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="27dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_others"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/others_text_view"
+                tools:listitem="@layout/settings_card_view"
+                tools:itemCount="4"/>
+
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

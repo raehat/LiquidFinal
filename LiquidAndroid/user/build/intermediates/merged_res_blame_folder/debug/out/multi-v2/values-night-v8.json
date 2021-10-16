@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\raeha\\AndroidStudioProjects\\Liquid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\raeha\\.gradle\\caches\\transforms-2\\files-2.1\\10046aad9e73cbf22653afacdcab8838\\material-1.4.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1825,1913,2037,2139,2241,2357,2459,2573,2701,2817,2939,3075,3195,3329,3449,3561,3776,3900,4030,4152,4290,4424,4540",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
+                        "endOffsets": "1908,2032,2134,2236,2352,2454,2568,2696,2812,2934,3070,3190,3324,3444,3556,3682,3895,4025,4147,4285,4419,4535,4655"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\raeha\\AndroidStudioProjects\\Liquid\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "-1,22,2",
+                        "startColumns": "-1,4,4",
+                        "startOffsets": "-1,1167,102",
+                        "endLines": "-1,22,18",
+                        "endColumns": "-1,53,12",
+                        "endOffsets": "-1,1216,1094"
+                    },
+                    "to": {
+                        "startLines": "2,3,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,162,848",
+                        "endLines": "2,3,27",
+                        "endColumns": "61,53,12",
+                        "endOffsets": "157,211,1820"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\raeha\\.gradle\\caches\\transforms-2\\files-2.1\\c3edb913602f1c359d264c4687287f78\\appcompat-1.3.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,44",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "216,286,370,454,550,652,754,3687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "281,365,449,545,647,749,843,3771"
+                    }
+                }
+            ]
+        }
+    ]
+}

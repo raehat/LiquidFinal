@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsBuyShare"
+    android:background="?attr/backgroundColor">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="?attr/backgroundColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="DETAILS"
+        ></androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="21dp"
+                android:id="@+id/company_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COMPANY NAME"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"/>
+
+            <TextView
+                android:layout_marginTop="9dp"
+                android:id="@+id/corp_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company_name_text"
+                android:text="Corp Name"
+                android:layout_marginLeft="16dp"/>
+
+            <ImageView
+                android:id="@+id/chart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chart"
+                android:layout_below="@id/corp_name_text"
+                android:layout_marginTop="33dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CURRENT SHARE VALUE: ₹"
+                android:layout_below="@id/chart"
+                android:layout_marginTop="32dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"/>
+
+            <TextView
+                android:id="@+id/share_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:layout_below="@id/chart"
+                android:layout_marginTop="32dp"
+                android:text="25"
+                android:layout_marginLeft="250dp"/>
+
+            <TextView
+                android:id="@+id/change_in_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:layout_below="@id/share_price"
+                android:text="+₹2"
+                android:textColor="#00BF2E"
+                android:layout_marginLeft="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="OPEN"
+                android:layout_below="@id/change_in_price"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="16dp"/>
+
+            <TextView
+                android:id="@+id/open_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_below="@id/change_in_price"
+                android:text="₹12"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="76dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_price"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="HIGH"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/high_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_below="@id/open_price"
+                android:text="₹29"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="76dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/high_price"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="LOW"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/low_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_below="@id/high_price"
+                android:text="₹12"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="76dp"/>
+
+            <Button
+                android:id="@+id/button_buy_now"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="BUY NOW"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="@color/button_backgroundColor"
+                app:cornerRadius="30dp"
+                android:layout_below="@id/low_price"
+                android:layout_marginTop="24dp"/>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

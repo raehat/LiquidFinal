@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auth.Login"
+    android:background="?attr/backgroundColor">
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <androidx.appcompat.widget.Toolbar
+               android:id="@+id/toolbar"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:backgroundTint="?attr/backgroundColor"
+               app:layout_constraintTop_toTopOf="parent"
+               app:title="LOGIN"
+               ></androidx.appcompat.widget.Toolbar>
+
+           <TextView
+               android:id="@+id/text"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="LOGIN TO AN EXISTING ACCOUNT"
+               android:textSize="24sp"
+               android:textStyle="bold"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="70dp"
+               android:layout_below="@id/toolbar"
+               android:layout_marginTop="30dp"/>
+
+           <EditText
+               android:id="@+id/text_view_email"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:hint="Email"
+               android:inputType="textEmailAddress"
+               android:paddingLeft="16dp"
+               android:layout_below="@id/text"
+               android:layout_marginTop="60dp"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:background="@drawable/edit_text_borders"/>
+
+           <EditText
+               android:id="@+id/text_view_password"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:hint="Password"
+               android:inputType="textPassword"
+               android:paddingLeft="16dp"
+               android:layout_below="@id/text_view_email"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:background="@drawable/edit_text_borders"/>
+
+           <Button
+               android:id="@+id/login"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:text="LOG IN"
+               android:backgroundTint="@color/button_backgroundColor"
+               app:cornerRadius="30dp"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:layout_below="@id/text_view_password"
+               android:layout_marginTop="50dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="FORGOT YOUR PASSWORD?"
+               android:textStyle="bold"
+               android:layout_below="@id/login"
+               android:layout_centerHorizontal="true"
+               android:textAlignment="center"
+               android:layout_marginTop="15dp"
+               android:textSize="17sp"/>
+
+       </RelativeLayout>
+
+   </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

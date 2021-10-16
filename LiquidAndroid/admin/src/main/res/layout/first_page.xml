@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auth.FirstPage"
+    android:background="?attr/backgroundColor">
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:id="@+id/headig_text_view"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="LIQUID IS A ONE STOP SOLUTION FOR
+BUYING/SELLING SHARES WITH EASE"
+               android:textAlignment="center"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_marginTop="100dp"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"/>
+
+           <pl.droidsonroids.gif.GifImageView
+               android:id="@+id/stocks_gif"
+               android:layout_below="@id/headig_text_view"
+               android:layout_marginTop="50dp"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/stocks2"></pl.droidsonroids.gif.GifImageView>
+
+           <Button
+               android:id="@+id/get_started_button"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:layout_below="@id/stocks_gif"
+               android:layout_centerHorizontal="true"
+               android:layout_marginLeft="16dp"
+               android:layout_marginTop="80dp"
+               android:layout_marginRight="16dp"
+               android:fontFamily="@font/poppins"
+               android:backgroundTint="@color/button_backgroundColor"
+               android:text="GET STARTED!"
+               android:textSize="14sp"
+               app:backgroundTint="#FFFFFF"
+               app:cornerRadius="30dp" />
+
+       </RelativeLayout>
+
+   </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.liquid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:5:5-36:19
+12        android:allowBackup="true"
+12-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Liquid" >
+20-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:11:9-44
+21        <activity
+21-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:12:9-13:63
+22            android:name="com.example.liquid.Appearance"
+22-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:12:19-45
+23            android:parentActivityName="com.example.liquid.HomePage" />
+23-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:13:13-51
+24        <activity
+24-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:14:9-16:54
+25            android:name="com.example.liquid.DetailsBuyShare"
+25-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:15:13-44
+26            android:parentActivityName="com.example.liquid.HomePage" />
+26-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:16:13-51
+27        <activity android:name="com.example.liquid.HomePage" />
+27-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:17:9-46
+27-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:17:19-43
+28        <activity
+28-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:18:9-20:57
+29            android:name="com.example.liquid.Auth.Login"
+29-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:19:13-39
+30            android:parentActivityName="com.example.liquid.Auth.SignUp" />
+30-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:20:13-54
+31        <activity
+31-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:21:9-23:60
+32            android:name="com.example.liquid.Auth.SignUp"
+32-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:22:13-40
+33            android:parentActivityName="com.example.liquid.Auth.FirstPage" />
+33-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:23:13-57
+34        <activity android:name="com.example.liquid.Auth.FirstPage" />
+34-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:24:9-52
+34-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:24:19-49
+35        <activity android:name="com.example.liquid.Auth.Splash" >
+35-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:25:9-31:20
+35-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:25:19-46
+36            <intent-filter>
+36-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:26:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:27:17-69
+37-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:27:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:29:17-77
+39-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:29:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <meta-data
+43-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:33:9-35:57
+44            android:name="preloaded_fonts"
+44-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:34:13-43
+45            android:resource="@array/preloaded_fonts" />
+45-->C:\Users\raeha\AndroidStudioProjects\Liquid\app\src\main\AndroidManifest.xml:35:13-54
+46    </application>
+47
+48</manifest>
