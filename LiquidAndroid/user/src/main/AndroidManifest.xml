@@ -2,20 +2,24 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.liquid">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Liquid">
-        <activity android:name=".Appearance"
-            android:parentActivityName=".HomePage"></activity>
+        android:theme="@style/Theme.Liquid"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Auth.CustDialog"
+            android:exported="true" />
+        <activity
+            android:name=".Appearance"
+            android:parentActivityName=".HomePage" />
         <activity
             android:name=".DetailsBuyShare"
             android:parentActivityName=".HomePage" />

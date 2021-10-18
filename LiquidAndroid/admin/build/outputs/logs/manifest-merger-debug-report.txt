@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\10046aad9e73cbf22653afacdcab8838\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\f65d79ed0cc031d84364f8df9439124e\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\c3edb913602f1c359d264c4687287f78\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\a7ff06fc052fca8ac0505347d2b1f969\android-gif-drawable-1.2.17\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\3248bd9322da5707f757f563a33a2dc7\volley-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\5511f57e160c7e247f5d805a7544c561\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\380cac61cb2889001fece44433f66572\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\8b2b784d5451cbf3652154bd11b42fa8\activity-1.2.4\AndroidManifest.xml:17:1-24:12
@@ -41,25 +42,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\f8503f66578d12caa389b09e1e5eca48\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\8b1826e082b884f9fc593d27a9580a45\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\009da2b508e514d2e54268b4fc63ef17\relinker-1.3.1\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:3:5-32
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\10046aad9e73cbf22653afacdcab8838\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\10046aad9e73cbf22653afacdcab8838\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\f65d79ed0cc031d84364f8df9439124e\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
@@ -71,53 +72,53 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ra
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:11:9-44
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:11:9-44
 activity#com.example.admin.HomePageFragments.AddDaysRange
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:12:9-77
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:12:9-77
 	android:name
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:12:19-65
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:12:19-65
 activity#com.example.admin.HomePage
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:13:19-43
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:13:19-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:17:27-74
 activity#com.example.admin.Appearance
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:20:9-48
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:20:9-48
 	android:name
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:20:19-45
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:20:19-45
 activity#com.example.admin.DetailsBuyShare
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:21:9-53
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:21:9-53
 	android:name
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:21:19-50
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:21:19-50
 meta-data#preloaded_fonts
-ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:23:9-25:57
+ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:23:9-25:57
 	android:resource
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:25:13-54
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:25:13-54
 	android:name
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml:24:13-43
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml:24:13-43
 uses-sdk
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\10046aad9e73cbf22653afacdcab8838\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\10046aad9e73cbf22653afacdcab8838\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\f65d79ed0cc031d84364f8df9439124e\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
@@ -126,6 +127,8 @@ MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\raeha\.gradle\caches\t
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\c3edb913602f1c359d264c4687287f78\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\a7ff06fc052fca8ac0505347d2b1f969\android-gif-drawable-1.2.17\AndroidManifest.xml:6:5-8:41
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.17] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\a7ff06fc052fca8ac0505347d2b1f969\android-gif-drawable-1.2.17\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\3248bd9322da5707f757f563a33a2dc7\volley-1.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\3248bd9322da5707f757f563a33a2dc7\volley-1.2.0\AndroidManifest.xml:5:5-43
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\5511f57e160c7e247f5d805a7544c561\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\5511f57e160c7e247f5d805a7544c561\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\380cac61cb2889001fece44433f66572\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -192,13 +195,13 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\raeha\.
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\8b1826e082b884f9fc593d27a9580a45\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\009da2b508e514d2e54268b4fc63ef17\relinker-1.3.1\AndroidManifest.xml:5:5-43
 MERGED from [pl.droidsonroids.relinker:relinker:1.3.1] C:\Users\raeha\.gradle\caches\transforms-2\files-2.1\009da2b508e514d2e54268b4fc63ef17\relinker-1.3.1\AndroidManifest.xml:5:5-43
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-		ADDED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\raeha\AndroidStudioProjects\Liquid\admin\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+		ADDED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\raeha\Desktop\Liquid\LiquidAndroid\admin\src\main\AndroidManifest.xml

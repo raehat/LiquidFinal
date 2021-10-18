@@ -24,6 +24,9 @@
         android:theme="@style/Theme.Liquid"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.liquid.Auth.CustDialog"
+            android:exported="true" />
+        <activity
             android:name="com.example.liquid.Appearance"
             android:parentActivityName="com.example.liquid.HomePage" />
         <activity

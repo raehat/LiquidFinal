@@ -1955,6 +1955,7 @@ int id bounceStart 0x7f0a0062
 int id buttonPanel 0x7f0a0063
 int id button_buy_now 0x7f0a0064
 int id button_login 0x7f0a0065
+int id button_submit 0x7f0a01fd
 int id buy_item 0x7f0a0066
 int id cache_measures 0x7f0a0067
 int id cancel_button 0x7f0a0068
@@ -2035,6 +2036,7 @@ int id easeOut 0x7f0a00b2
 int id east 0x7f0a00b3
 int id edit_query 0x7f0a00b4
 int id edit_text_email 0x7f0a00b5
+int id edit_text_ip 0x7f0a01fe
 int id edit_text_name 0x7f0a00b6
 int id edit_text_password 0x7f0a00b7
 int id elastic 0x7f0a00b8
@@ -2242,6 +2244,7 @@ int id select_dialog_listview 0x7f0a0181
 int id selected 0x7f0a0182
 int id selection_type 0x7f0a0183
 int id sell_item 0x7f0a0184
+int id settings_change_ip 0x7f0a01ff
 int id settings_item 0x7f0a0185
 int id share_price 0x7f0a0186
 int id sharedValueSet 0x7f0a0187
@@ -2431,6 +2434,7 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_appearance 0x7f0d001c
 int layout activity_buy 0x7f0d001d
+int layout activity_cust_dialog 0x7f0d007c
 int layout activity_details_buy_share 0x7f0d001e
 int layout activity_home_page 0x7f0d001f
 int layout activity_login 0x7f0d0020

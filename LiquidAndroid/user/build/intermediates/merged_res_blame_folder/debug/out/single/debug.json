@@ -120,6 +120,10 @@
         "source": "C:\\Users\\raeha\\Desktop\\Liquid\\LiquidAndroid\\user\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_search_24.png"
     },
     {
+        "merged": "C:\\Users\\raeha\\Desktop\\Liquid\\LiquidAndroid\\user\\build\\intermediates\\res\\merged\\debug\\layout_activity_cust_dialog.xml.flat",
+        "source": "C:\\Users\\raeha\\Desktop\\Liquid\\LiquidAndroid\\user\\src\\main\\res\\layout\\activity_cust_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\raeha\\Desktop\\Liquid\\LiquidAndroid\\user\\build\\intermediates\\res\\merged\\debug\\layout_activity_home_page.xml.flat",
         "source": "C:\\Users\\raeha\\Desktop\\Liquid\\LiquidAndroid\\user\\src\\main\\res\\layout\\activity_home_page.xml"
     },

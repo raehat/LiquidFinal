@@ -1,7 +1,12 @@
 package com.example.liquid.Adapters;
 
+import static android.content.Context.MODE_PRIVATE;
+
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.liquid.Appearance;
+import com.example.liquid.Auth.FirstPage;
 import com.example.liquid.Models.SettingsModel;
 import com.example.liquid.R;
 import com.example.liquid.ViewModels.SettingsViewModel;
@@ -45,6 +51,22 @@ public class SettingsAdapter extends RecyclerView.Adapter<SettingsViewModel> {
             public void onClick(View v) {
                 if (holder.textViewTtile.getText()=="Appearance") {
                     context.startActivity(new Intent(context, Appearance.class));
+                }
+                else if (holder.textViewTtile.getText()=="Log Out") {
+                    AlertDialog alertDialog = new AlertDialog.Builder(context)
+                            .setTitle("You wish to log out?")
+                            .setMessage("Do you want to log out? Credentials will be" +
+                                    "required to log in back")
+                            .setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    SharedPreferences.Editor editor = context.getSharedPreferences("MY_PREFS_NAME", MODE_PRIVATE).edit();
+                                    editor.clear();
+                                    editor.apply();
+                                    context.startActivity(new Intent(context, FirstPage.class));
+                                }
+                            }).setNegativeButton("NO", null)
+                            .show();
                 }
             }
         });

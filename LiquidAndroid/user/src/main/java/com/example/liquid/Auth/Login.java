@@ -3,12 +3,15 @@ package com.example.liquid.Auth;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.liquid.HomePage;
 import com.example.liquid.Networking.NetworkModels.LoginModel;
 import com.example.liquid.Networking.NetworkUtils;
 import com.example.liquid.Networking.networkAPI;
@@ -39,7 +42,6 @@ public class Login extends AppCompatActivity {
         editTextPassword = findViewById(R.id.edit_text_password);
 
         buttonLogin = findViewById(R.id.button_login);
-
         Retrofit retrofit = NetworkUtils.retrofitInstance();
 
         networkAPI networkAPI = retrofit.create(com.example.liquid.Networking.networkAPI.class);
@@ -62,7 +64,17 @@ public class Login extends AppCompatActivity {
                         if (!response.isSuccessful()) {
                             Toast.makeText(getApplicationContext(), "response code: " + response.code(), Toast.LENGTH_SHORT).show();
                         }
-                        Toast.makeText(getApplicationContext(), "" + response.body(), Toast.LENGTH_SHORT).show();
+                        if (response.body().contains("Wrong Password!")) {
+                            Toast.makeText(getApplicationContext(), "" + response.body(), Toast.LENGTH_SHORT).show();
+                        } else if (response.body().contains("User doesn't exist!")){
+                            Toast.makeText(getApplicationContext(), "" + response.body(), Toast.LENGTH_SHORT).show();
+                        } else {
+                            SharedPreferences.Editor editor = getSharedPreferences("MY_PREFS_NAME", MODE_PRIVATE).edit();
+                            editor.putString("email", email);
+                            editor.apply();
+                            Toast.makeText(getApplicationContext(), "" + response.body(), Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getApplicationContext(), HomePage.class));
+                        }
                     }
 
                     @Override

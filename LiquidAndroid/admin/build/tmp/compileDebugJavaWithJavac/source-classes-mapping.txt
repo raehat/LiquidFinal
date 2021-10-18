@@ -2,6 +2,8 @@ com/example/admin/ViewModels/SettingsViewModel.java
  com.example.admin.ViewModels.SettingsViewModel
 com/example/admin/ViewModels/ShareViewModel.java
  com.example.admin.ViewModels.ShareViewModel
+com/example/admin/HomePageFragments/AddDaysRange.java
+ com.example.admin.HomePageFragments.AddDaysRange
 com/example/admin/Appearance.java
  com.example.admin.Appearance
  com.example.admin.Appearance$1
@@ -19,18 +21,16 @@ com/example/admin/HomePageFragments/AddCompany.java
 com/example/admin/HomePageFragments/Analysis.java
  com.example.admin.HomePageFragments.Analysis
  com.example.admin.HomePageFragments.Analysis$1
-com/example/admin/Models/ShareModel.java
- com.example.admin.Models.ShareModel
-com/example/admin/Adapters/SettingsAdapter.java
- com.example.admin.Adapters.SettingsAdapter
- com.example.admin.Adapters.SettingsAdapter$1
+com/example/admin/HomePage.java
+ com.example.admin.HomePage
+ com.example.admin.HomePage$1
 com/example/admin/BuildConfig.java
  com.example.admin.BuildConfig
 com/example/admin/Adapters/ShareAdapter.java
  com.example.admin.Adapters.ShareAdapter
  com.example.admin.Adapters.ShareAdapter$1
-com/example/admin/HomePage.java
- com.example.admin.HomePage
- com.example.admin.HomePage$1
-com/example/admin/HomePageFragments/AddDaysRange.java
- com.example.admin.HomePageFragments.AddDaysRange
+com/example/admin/Models/ShareModel.java
+ com.example.admin.Models.ShareModel
+com/example/admin/Adapters/SettingsAdapter.java
+ com.example.admin.Adapters.SettingsAdapter
+ com.example.admin.Adapters.SettingsAdapter$1

@@ -40,39 +40,39 @@
                 android:id="@+id/button_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="16dp"
                 android:text="Login"
                 android:textAlignment="textEnd"
                 android:textColor="#5DB075"
-                android:textSize="20sp"
-                android:layout_below="@id/toolbar"
-                android:layout_marginTop="40dp"
-                android:layout_marginRight="16dp" />
+                android:textSize="20sp" />
 
 
             <EditText
                 android:id="@+id/edit_text_name"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:hint="Name"
-                android:paddingLeft="16dp"
                 android:layout_below="@id/text"
-                android:layout_marginTop="60dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="60dp"
                 android:layout_marginRight="16dp"
-                android:background="@drawable/edit_text_borders"/>
+                android:background="@drawable/edit_text_borders"
+                android:hint="Name"
+                android:paddingLeft="16dp" />
 
             <EditText
                 android:id="@+id/edit_text_email"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:hint="Email"
-                android:paddingLeft="16dp"
-                android:inputType="textEmailAddress"
                 android:layout_below="@id/edit_text_name"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
-                android:background="@drawable/edit_text_borders"/>
+                android:background="@drawable/edit_text_borders"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="16dp" />
 
             <EditText
                 android:id="@+id/edit_text_password"
@@ -130,13 +130,13 @@
                 android:id="@+id/sign_up"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="SIGN UP"
-                android:backgroundTint="@color/button_backgroundColor"
-                app:cornerRadius="30dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_below="@id/linear"
-                android:layout_marginTop="50dp"/>
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="@color/button_backgroundColor"
+                android:text="SIGN UP"
+                app:cornerRadius="30dp" />
 
             <TextView
                 android:layout_width="match_parent"
